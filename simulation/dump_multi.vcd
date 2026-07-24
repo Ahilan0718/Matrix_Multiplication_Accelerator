@@ -1,0 +1,63 @@
+$date
+	Sun Jul 12 22:14:34 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module multi_test $end
+$var wire 16 ! product [15:0] $end
+$var parameter 32 " WIDTH $end
+$var reg 8 # A [7:0] $end
+$var reg 8 $ B [7:0] $end
+$scope module DUT $end
+$var wire 8 % A [7:0] $end
+$var wire 8 & B [7:0] $end
+$var wire 16 ' product [15:0] $end
+$var parameter 32 ( WIDTH $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1000 (
+b1000 "
+$end
+#0
+$dumpvars
+b0 '
+b0 &
+b0 %
+b0 $
+b0 #
+b0 !
+$end
+#10
+b10100 !
+b10100 '
+b100 $
+b100 &
+b101 #
+b101 %
+#20
+b1010 $
+b1010 &
+b1111000 !
+b1111000 '
+b1100 #
+b1100 %
+#30
+b11001000 !
+b11001000 '
+b10100 #
+b10100 %
+#40
+b11111111 $
+b11111111 &
+b1111111000000001 !
+b1111111000000001 '
+b11111111 #
+b11111111 %
+#70
